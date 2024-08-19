@@ -1,0 +1,49 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon/components";
+const features = [
+  {
+    title: "Desarrollo Backend con Laravel y Java",
+    description:
+      "He creado y mantenido aplicaciones robustas utilizando Laravel y Java, enfocándome en la escalabilidad, seguridad y rendimiento. He implementado API RESTful y gestionado bases de datos relacionales.",
+    icon: "bx:bxs-server",
+  },
+  {
+    title: "Automatización y Análisis con Python",
+    description:
+      "He desarrollado scripts y herramientas en Python para automatizar procesos repetitivos, análisis de datos y creación de reportes utilizando bibliotecas como Pandas, NumPy y Flask.",
+    icon: "bx:bxs-cog",
+  },
+  {
+    title: "Desarrollo Full Stack",
+    description:
+      "Con experiencia en Laravel para backend y el uso de HTML, CSS y JavaScript en el frontend, he desarrollado aplicaciones web completas e integrado sistemas complejos, optimizando el rendimiento y la experiencia del usuario.",
+    icon: "bx:bxs-layer",
+  },
+];
+
+---
+
+<div class="mt-16 md:mt-0">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+    Conocimiento y experiencia en las siguientes tecnologías y herramientas 
+  </h2>
+  <p class="text-lg mt-4 text-slate-600">
+  </p>
+</div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+  {
+    features.map((item) => (
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
+          <Icon class="text-white" name={item.icon} />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+        </div>
+      </div>
+    ))
+  }
+</div>
