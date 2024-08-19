@@ -7,6 +7,5 @@ import icon from "astro-icon";
 // https://astro.build/config
 export default defineConfig({
   site: "https://aleTempest.github.io",
-  repo: "aylmao",
   integrations: [tailwind(), mdx(), sitemap(), icon()],
 });
