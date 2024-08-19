@@ -6,13 +6,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astroship.web3templates.com",
+  site: "https://aleTempest.github.io",
+  repo: "aylmao",
   integrations: [tailwind(), mdx(), sitemap(), icon()],
-  content: {
-    collections: {
-      links: {
-        path: 'src/content/links',
-      },
-    },
-  },
 });
