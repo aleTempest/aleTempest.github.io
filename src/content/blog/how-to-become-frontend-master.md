@@ -3,11 +3,11 @@ draft: false
 title: "Coppermind"
 snippet: ""
 image: {
-    src: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?&fit=crop&w=430&h=240",
+    src: "https://images.unsplash.com/photo-1620325867502-221cfb5faa5f?q=80&w=1157&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "frontend master"
 }
 publishDate: "2022-11-07 15:39"
-category: "Tutorials"
+category: "UX, Design"
 author: "Connor Lopez"
 tags: [astro, tailwindcss, frontend]
 ---

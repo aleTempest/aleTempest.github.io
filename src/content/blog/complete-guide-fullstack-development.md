@@ -3,11 +3,11 @@ draft: false
 title: "AdoptaUnAmigo"
 snippet: ""
 image: {
-    src: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?&fit=crop&w=430&h=240",
+    src: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "full stack web development"
 }
 publishDate: "2022-11-08 11:39"
-category: "Tutorials"
+category: "UX, Design"
 author: "Janette Lynch"
 tags: [webdev, UX, Android, responsive]
 ---
